@@ -4,9 +4,10 @@ MIT License: a short and simple permissive license with conditions only requirin
 preservation of copyright and license notices. 
 
 The Individual Content (defined as information which in itself is not part of the 
-actual code) under this repository, including but not limited to: the portfolio, 
-information, and the external links provided are private property of Rose Conti Porta, 
-and cannot be reproduced or utilized in any way, shape, or form without written consent. 
+actual code, such as Personal Identifying Information) under this repository, including 
+but not limited to: the portfolio, information, and the external links provided are 
+private property of Rose Conti Porta, and cannot be reproduced or utilized in any way, 
+shape, or form without written consent. 
 
 =======================================================================================
 MIT License
