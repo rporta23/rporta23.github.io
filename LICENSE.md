@@ -12,7 +12,7 @@ shape, or form without written consent.
 =======================================================================================
 MIT License
 
-Copyright (c) 2022 Rose Conti Porta
+Copyright (c) 2022-2023 Rose Conti Porta
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
