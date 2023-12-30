@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Rose Porta: Resume</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
     <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
@@ -37,14 +37,14 @@
                                     <a class="nav-link tm-nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link tm-nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link tm-nav-link" href="about.html">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="resume.html">Resume</a>
-                                </li>  
+                                </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link tm-nav-link" href="projects.html">Projects</a>
-                                </li>                          
+                                    <a class="nav-link tm-nav-link" href="projects.html">Projects<span class="sr-only">(current)</span></a>
+                                </li>                            
                                 <li class="nav-item">
                                     <a class="nav-link tm-nav-link" href="mailto:rporta@umass.edu">Contact</a>
                                 </li>
@@ -52,27 +52,189 @@
                         </div>                        
                     </nav>
                 </div>
-            </div> 
+            </div>
             
             <div class="tm-row">
                 <div class="tm-col-left"></div>
                 <main class="tm-col-right">
-                    <section class="tm-content tm-about">
-                        <h2 class="mb-5 tm-content-title">Projects</h2>
-                        <hr class="mb-4">
-                        <div class="media my-3">
-                            <div class="media-body">
-                                <h1>Under Construction</h1><br>
-                                <style>
-                                    .media img {
-                                        max-width: 100%;
-                                        height: auto;
-                                    }
-                                </style>                                
-                                <img src="https://i.natgeofe.com/n/2a58b782-8872-44e6-96da-81a48dee635a/GettyImages-180723850_square.jpg">
-                                <p>Image Copyright: <a href="https://www.nationalgeographic.com/animals/mammals/facts/alpaca">Getty Images & Nat Geo</a>, used for non-commercial personal purposes.</p>
-                            </div> 
-                        </div>
+                    <section class="tm-content">
+                        <div class="media my-3 mb-5 tm-service-media tm-service-media-img-l">
+                            <!-- Edit Stuff Here -->
+                            <ul class='timeline' >
+                                <li>
+									<div class='timeline-content' >
+										<h1><b>Projects (Complete List)</b></h1>
+									</div>
+								</li>
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4>Predicting Auto Insurance Claim Costs Using Historical Claim Data</h4>
+
+                                        <em>
+                                            <span>Travelers Analytics Case Competition 2023</span><br>
+                                            <span>University of Massachusetts Amherst, Fall 2023</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Built an ensemble Machine Learning Model to predict claim costs using Python.</li>
+                                                <li>Assessed contribution of each feature using feature importance plots and SHAP Beeswarm plots.</li>
+                                                <li>Communicated the business impact of our findings via a presentation to the Travelers team.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4>The Effects of Cement Floors on Maternal Wellbeing</h4>
+
+                                        <em>
+                                            <span><a href="https://github.com/rporta23/causal-project/blob/main/590C_project_report.pdf" style="color:#9CC" target="_blank" rel="noopener noreferrer">Project Link</a></span><br>
+                                            <span>University of Massachusetts Amherst, Fall 2023</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Utilized Instrumental Variable estimation to assess the causal effect of floor quality on stress and depression levels of mothers who participated in the <i>Piso Firme</i> Mexican government initiative to install cement floors in homes which previously had dirt floors.</li>
+                                                <li>Found that there is a statistically significant causal effect, even after adjusting for relevant covariates.</li>
+
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4>Analysis of Flight Delays for Tampa Airport</h4>
+
+                                        <em>
+                                            <span><a href="https://github.com/rporta23/691P/blob/main/ST691P_FinalVersion3.pdf" style="color:#9CC" target="_blank" rel="noopener noreferrer">Project Link</a></span><br>
+                                            <span>University of Massachusetts Amherst, Fall 2023</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Constructed a logistic regression model to predict whether or not a flight departing from Tampa Airport would be delayed using publicly available Bureau of Transportation Statistics data.</li>
+                                                <li>Employed lasso for variable selection and compared the performance of different models using ROC curves and AUC.</li>
+                                                <li>Incorporated the optimal model into an R shiny app as well as an R package geared toward facilitating data-informed decision-making for customers booking flights.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4>Analysis of Potential Predictive Factors on post-grad Job Status</h4>
+
+                                        <em>
+                    
+                                            <span>University of Massachusetts Amherst, Fall 2023</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Fit logistic regression (binary response: has job 3 months post-grad or not) and poisson (count response: number of months taken to find job post-grad) regression models to assess the relationship between demographics, field of study, and degree type on post-grad career status among students who have received a higher education degree in a STEM field using publicly available IPUMS Higher Ed Data.</li>
+                                                <li>Found that field of study and degree type are strong predictors of career outcomes, while demographic factors are not as associated with career outcomes as we expected.</li>
+                                               
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4>Using Simulation to Assess Strategy Effectiveness in UNO</h4>
+
+                                        <em>
+                                            <span><a href="https://github.com/rporta23/draw4 " style="color:#9CC" target="_blank" rel="noopener noreferrer">Project Link</a></span><br>
+                                            <span>University of Massachusetts Amherst, Spring 2023</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Developed a Python algorithm to simulate the popular card game UNO.</li>
+                                                <li>Conducted Z-tests to assess effectiveness of four different strategies as compared to a random strategy.</li>
+                                                <li>Found that several of the strategies were effective at increasing winning probability, although the most effective only increased chances of winning by at most a couple of percentage points.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4>Analysis of Access to Emergency Funds in Sub-Saharan Countries: A Human-Rights Based Approach</h4>
+
+                                        <em>
+                                            <span>Sponsored by <a href="https://www.womenatthetable.net/" style="color:#9CC" target="_blank" rel="noopener noreferrer">Women at the Table</a></span>
+                                            <span><a href="https://github.com/sds-capstone/2022-09-proj7-women-at-table" style="color:#9CC" target="_blank" rel="noopener noreferrer">Project Link</a></span><br>
+                                            <span>Smith College, Fall 2022</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Trained a Decision Tree Classifier Machine Learning model to predict whether or not an individual has access to emergency funds with 68% accuracy. The model makes predictions using demographic and other financial data sourced from The 2017 Global Findex Database published by The World Bank.</li>
+                                                <li>Assessed fairness of the model based on gender using a variety of group and individual fairness metrics and implemented de-biasing techniques to improve the fairness.</li>
+                                                <li>Documented the full analysis in an iPython Google Colab notebook structured as an educational resource for more ethical machine learning including full explanations of each step of the analysis oriented toward a non-technical audience.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4>Trends in Students Studying Early Childhood Education in The Pioneer Valley, MA</h4>
+
+                                        <em>
+                                            <span>In partnership with <a href="https://www.communityaction.us/head-start-early-learning-programs" style="color:#9CC" target="_blank" rel="noopener noreferrer">Community Action Pioneer Valley Head Start and Early Learning Programs</a></span><br>
+                                            <span>Smith College, Fall 2022</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Collected and analyzed data on the numbers and demographics of students studying Early Childhood Education (ECE) from post-secondary institutions within the Pioneer Valley, MA.</li>
+                                                <li>Integrated data from IPEDS, the Census Bureau Household Pulse Survey, and the Bureau of Labor Statistics in order to contextualize the survey data into the larger story of the ECE labor shortage and the impacts of the pandemic on the same.</li>
+                                                <li>Summarized findings into a report for Community Action Pioneer Valley Head Start and Early Learning Programs in order to inform their funding plans for the upcoming funding cycle.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4>Sex Differences in Depression and Sleep Disturbance as Int`er-Related Risk Factors of Diabetes</h4>
+
+                                        <em>
+                                            <span>Published in <i>Frontiers in Clinical Diabetes and Healthcare</i></span>
+                                            <span><a href="http://bit.ly/3pCfgWf" style="color:#9CC" target="_blank" rel="noopener noreferrer">Publication Link</a></span><br>
+                                            <span>Smith College, Spring 2020-Summer 2022</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Used multiple logistic regression and publicly available U.S. census data from IPUMS NHIS to analyze depression and sleep as inter-related predictors of diabetes.</li>
+                                                <li>Submitted report to Undergraduate Statistics Class Project Competition (USCLAP) and received first place in the Intermediate Statistics Division, Spring 2020</li>
+                                                <li>Presented at the Electronic Undergraduate Statistics Research Conference (eUSR) Fall 2020: <a href="https://www.causeweb.org/usproc/eusrc/2020/program/10" style="color:#9CC" target="_blank" rel="noopener noreferrer">https://www.causeweb.org/usproc/eusrc/2020/program/10</a></li>
+                                                <li>Revised report substantially and published in peer-reviewed journal <i>Frontiers in Clinical Diabetes and Healthcare</i>, Summer 2022</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-content">
+                                        <h4><i>censusviz</i> R package</h4>
+
+                                        <em>
+                                            <span><a href="https://github.com/rporta23/censusviz" style="color:#9CC" target="_blank" rel="noopener noreferrer">Project Link</a></span><br>
+                                            <span>Smith College, Spring 2022</span>
+                                        </em>
+
+                                        <p>
+                                            <ul>
+                                                <li>Built an R package which provides an interface for exploring and visualizing historical racial demographic census data (1950-2020) sourced from IPUMS for any region in the United States (by county).</li>
+                                                <li>The package provides functionality for visualizing the data on leaflet maps as well as for accessing the data in an accessible, tidy format such that the user can then create their own visualizations.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </li>
+                                
+							</ul>
+                        </div>                      
                     </section>
                 </main>
             </div>
@@ -88,9 +250,9 @@
             </div>        
             <div class="tm-col-right tm-col-footer">
                 <footer class="tm-site-footer text-right">
-                    <p class="mb-0">Copyright 2023, Rose Conti Porta | <a href="https://github.com/rporta23/rporta23.github.io" target="_blank" rel="noopener noreferrer">Open Source</a></p>
+                    <p class="mb-0">Copyright 2023, Rose Conti Porta | <a href="https://github.com/rporta23/rporta23.github.io" target="_blank" rel="noopener noreferrer">Open Source</a>
                 </footer>
-            </div>   
+            </div>  
         </div>        
 
         <!-- Diagonal background design -->
@@ -105,4 +267,5 @@
     <script src="js/jquery.backstretch.min.js"></script>
     <script src="js/background.js"></script>
 </body>
+
 </html>
